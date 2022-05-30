@@ -1,0 +1,39 @@
+.backDrop
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    width: 0%;
+    height: 100%;
+    z-index: 1000; 
+    opacity: 0;
+    transition: all 2s;
+}
+.show 
+{
+    transition: all 2s;
+    width: 100%;
+    opacity: 0.8;
+}
+.overlay
+{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    background-color: white;
+    width: 500px;
+    z-index: 1000;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.allSaRe
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 10px 0;
+}
